@@ -1,2 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 :root{font-family:'DM Sans';color:#29373b;background:#f8f8f5}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{border:0;cursor:pointer}.app{display:flex;min-height:100vh}aside{width:235px;background:#203034;color:#e2eae5;padding:27px 15px;display:flex;flex-direction:column}.logo{font:600 13px 'DM Mono';letter-spacing:.08em}.logo span{color:#c9934a;font-size:21px;margin-right:8px}.library-head{margin:48px 10px 25px}.library-head span{display:block;color:#93a4a0;font-size:11px}.library-head strong{display:block;font:600 27px 'Space Grotesk';margin-top:3px}.library-head small{font:11px 'DM Sans';color:#93a4a0}nav{display:grid;gap:4px}nav button,.side-tags button,.side-foot button{padding:10px 11px;background:none;color:#99aaa6;text-align:left;border-radius:5px;display:flex;align-items:center;gap:11px;font-size:13px}nav button.active{background:#c9934a;color:#203034}nav b{margin-left:auto;font:10px 'DM Mono'}.side-tags{margin-top:36px;display:grid;gap:4px}.side-tags small{font:10px 'DM Mono';color:#718782;padding:0 11px 7px;text-transform:uppercase}.side-tags button{padding:6px 11px;font-size:11px}.side-foot{margin-top:auto;display:grid;gap:15px}.side-foot small{font:10px 'DM Mono';color:#718782;padding-left:11px}main{flex:1;min-width:0}header{height:120px;padding:29px 44px 22px;border-bottom:1px solid #e0e3dc;display:flex;align-items:end;justify-content:space-between}.crumb{font:10px 'DM Mono';color:#8b9792;letter-spacing:.1em}h1{font:600 31px 'Space Grotesk';letter-spacing:-.06em;margin:6px 0 0}.actions{display:flex;gap:9px}.outline,.primary{padding:10px 14px;border-radius:5px;font-size:12px;font-weight:600}.outline{background:#fff;border:1px solid #d6dcd7;color:#586c66}.primary{background:#293b3d;color:white}.toolbar{padding:24px 44px 15px;display:flex;gap:20px;align-items:center;border-bottom:1px solid #e5e7e2}.search{width:300px;border:1px solid #d9dfda;background:#fff;border-radius:5px;padding:8px 10px;display:flex;gap:8px;align-items:center;color:#91a09a}.search input{border:0;outline:0;width:100%;font-size:12px;background:none}.search button{color:#9aa5a1;background:none}.tag-filter{display:flex;gap:4px;overflow:auto}.tag-filter button{font-size:11px;color:#84918c;padding:6px 10px;border-radius:4px;white-space:nowrap}.tag-filter button.on{background:#e5ede7;color:#3d5c50;font-weight:600}.body{display:grid;grid-template-columns:minmax(430px,48%) 1fr;min-height:calc(100vh - 184px)}.paper-list{padding:20px 23px 50px 44px;border-right:1px solid #e2e5df}.paper{display:grid;grid-template-columns:45px 1fr auto;gap:14px;width:100%;padding:18px 11px;border-bottom:1px solid #e4e7e2;background:none;text-align:left;border-radius:5px}.paper:hover,.paper.selected{background:#edf1eb}.paper-year{font:12px 'DM Mono';color:#9b9281;padding-top:3px}.paper-copy{min-width:0}.paper-copy h3{font:600 16px 'Space Grotesk';margin:0 0 5px;letter-spacing:-.03em}.paper-copy p{font-size:11px;color:#7b8984;margin:0 0 9px}.paper-copy span{font:10px 'DM Mono';color:#b07c38;margin-right:8px}.status{font:10px 'DM Mono';white-space:nowrap;padding:4px 7px;border-radius:3px;height:max-content}.status.待读{color:#9a7444;background:#f1e8d9}.status.已读{color:#4b7a68;background:#dfeee7}.status.阅读中,.reading{color:#8b6b33;background:#f2e4c8}.no-result{text-align:center;color:#96a19b;padding:60px 10px;font-size:13px}.detail{padding:37px 50px;max-width:640px}.detail-top{display:flex;justify-content:space-between;align-items:center}.detail-top button{font-size:12px;color:#9b712f}.detail h2{font:600 34px 'Space Grotesk';letter-spacing:-.06em;margin:21px 0 5px;line-height:1.08}.authors{color:#6f7f79;font-size:13px;margin:0}.cite-actions{display:flex;gap:8px;margin:25px 0 36px}.cite-actions button{border:1px solid #d6ddd6;background:white;padding:9px 11px;font-size:11px;border-radius:4px;color:#687873}.detail-section{border-top:1px solid #e2e6e1;padding:21px 0}.detail-section h4{font:600 12px 'Space Grotesk';margin:0 0 13px}.detail-section h4 span{font:10px 'DM Mono';color:#a0aaa5;margin-left:7px;font-weight:400}.detail-section>p{font-size:13px;color:#60716b;line-height:1.7;margin:0}.pub-grid{display:grid;grid-template-columns:1fr 1fr}.pub-grid small,.pub-grid strong{display:block}.pub-grid small{font:10px 'DM Mono';color:#96a29c}.pub-grid strong{font-size:12px;margin-top:5px}.cite-box{background:#f0f2ed;border:1px solid #e0e5de;padding:12px;font:11px 'DM Mono';color:#596b65;line-height:1.5;position:relative;padding-right:60px}.cite-box button{position:absolute;right:9px;top:9px;border:1px solid #cdd7ce;background:#fff;color:#6e7f75;font-size:10px;padding:4px 6px}.notes{width:100%;border:0;background:#fafbf8;min-height:70px;resize:vertical;outline:0;color:#52665d;font-size:12px}.modal-bg{position:fixed;inset:0;background:#20303455;display:grid;place-items:center}.modal{width:min(470px,92vw);background:#f9f9f5;border-radius:8px;padding:29px;display:grid;gap:13px;position:relative;box-shadow:0 15px 35px #20303438}.modal h2{font:600 25px 'Space Grotesk';margin:0 0 4px}.modal label{font-size:11px;color:#71807a;display:grid;gap:6px}.modal input,.modal textarea{border:1px solid #d4ddd5;border-radius:4px;padding:9px;background:#fff;outline:0}.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}.close{position:absolute;right:17px;top:13px;font-size:24px;background:none;color:#899690}.full{width:100%}.toast{position:fixed;right:22px;bottom:22px;background:#243a3c;color:#fff;padding:11px 16px;border-radius:5px;font-size:12px}@media(max-width:850px){aside{display:none}header{padding:25px 20px}.toolbar{padding:18px 20px;display:block}.tag-filter{margin-top:10px}.body{display:block}.paper-list{padding:15px 20px}.detail{padding:28px 20px}.actions .outline{display:none}}
+
+/* ===== 每周讨论排期 ===== */
+.main-nav{margin-top:48px}
+.side-stats{margin-top:36px;padding:0 11px;display:grid;gap:10px}
+.side-stats small{font:10px 'DM Mono';color:#718782;text-transform:uppercase;letter-spacing:.08em;padding-bottom:4px}
+.side-stats div{display:flex;justify-content:space-between;font-size:12px;color:#99aaa6}
+.side-stats b{font:500 12px 'DM Mono';color:#e2eae5}
+.status-filter{display:flex;gap:4px}
+.status-filter button{font-size:11px;color:#84918c;padding:6px 10px;border-radius:4px;white-space:nowrap;background:none}
+.status-filter button.on{background:#e5ede7;color:#3d5c50;font-weight:600}
+.status-select{border:1px solid #d6ddd6;border-radius:3px;font-size:10px;padding:4px 7px}
+.detail-top .hint{font:10px 'DM Mono';color:#9aa5a1}
+.review-section{background:#fbf6ec;border-top-color:#e7d9bf;padding:21px 16px;border-radius:6px}
+.notes.review{background:#fff;border:1px solid #e3d6bd;min-height:84px;padding:10px;border-radius:4px}
+.warn{color:#b05a3a;font-size:11px}
+.schedule-wrap{padding:28px 44px 60px;display:grid;gap:22px;max-width:1060px}
+.rule-card{background:#eef2ec;border:1px solid #dde5da;border-radius:8px;padding:18px 22px}
+.rule-card h4{margin:0 0 10px;font:600 13px 'Space Grotesk'}
+.rule-card ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:12.5px;color:#4d6059;line-height:1.55}
+.rule-card b{color:#2f4a40}
+.section-head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.section-head h3{font:600 19px 'Space Grotesk';margin:0;letter-spacing:-.03em}
+.section-head h3 small{font:11px 'DM Mono';color:#8b9792;margin-left:6px;font-weight:400}
+.section-head .hint{font-size:11px;color:#96a19b}
+.frozen-tag{font:10px 'DM Mono';color:#7d6a44;background:#f1e8d6;padding:4px 8px;border-radius:3px;margin-left:auto}
+.session-card{background:#fff;border:1px solid #e1e5de;border-radius:8px;padding:18px 22px;display:flex;gap:20px;justify-content:space-between;margin-bottom:12px}
+.session-title-line{display:flex;align-items:center;gap:10px}
+.session-title-line h3{margin:0;font:600 17px 'Space Grotesk'}
+.frozen-badge{font:9px 'DM Mono';color:#fff;background:#6f7f6a;padding:3px 7px;border-radius:3px;letter-spacing:.06em}
+.session-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#5d6f68;margin:10px 0}
+.session-papers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:7px 26px}
+.session-papers li{font-size:12.5px;color:#33463f;display:flex;align-items:center;gap:8px}
+.session-papers .status{font-size:9px;padding:2px 6px}
+.session-side{display:flex;align-items:flex-start;flex-shrink:0}
+.conflict-section,.adjust-section{border-top:1px solid #e5e7e2;padding-top:22px}
+.conflict-section.has .section-head h3{color:#a4512f}
+.conflict-card{background:#fdf3ee;border:1px solid #f0cfc0;border-radius:8px;padding:16px 20px;margin-bottom:12px}
+.conflict-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.conflict-kind{font:600 11px 'DM Mono';color:#a4512f;letter-spacing:.05em}
+.link-danger{background:none;color:#a4512f;font-size:11px;text-decoration:underline}
+.conflict-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 26px;margin:0}
+.conflict-grid .span2{grid-column:1/-1}
+.conflict-grid dt{font:10px 'DM Mono';color:#9b8a7d;text-transform:uppercase;margin:0 0 3px}
+.conflict-grid dd{margin:0;font-size:12.5px;color:#46392f;line-height:1.5}
+.error-list{margin:0;padding-left:16px;color:#a4512f;display:grid;gap:3px}
+.no-result.compact{padding:24px 10px}
+.adjust-card{background:#fbfbf7;border:1px solid #e4e6dd;border-radius:8px;padding:16px 20px;margin-bottom:12px}
+.adjust-card.已应用{opacity:.72}
+.adjust-card.已驳回{opacity:.6}
+.adjust-top{display:flex;justify-content:space-between;align-items:center}
+.adjust-reason{font-size:12.5px;color:#5c5140;margin:8px 0}
+.adjust-diff small{display:block;font:10px 'DM Mono';color:#96a29c;margin-bottom:4px}
+.adjust-diff span{display:block;font-size:12.5px;color:#33463f;line-height:1.6}
+.adjust-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+.adj-status{font:10px 'DM Mono';padding:3px 8px;border-radius:3px}
+.adj-status.待处理{color:#8b6b33;background:#f2e4c8}
+.adj-status.已应用{color:#4b7a68;background:#dfeee7}
+.adj-status.已驳回{color:#96614f;background:#f1e0da}
+.modal.wide{width:min(680px,94vw)}
+.two-times{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.pick-head h4{font:600 12px 'Space Grotesk';margin:6px 0 8px}
+.pick-head h4 span{font:10px 'DM Mono';color:#a0aaa5;margin-left:8px;font-weight:400}
+.paper-picker{max-height:230px;overflow:auto;border:1px solid #e0e5de;border-radius:6px;padding:6px;display:grid;gap:4px;background:#fff}
+.pick-item{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:5px;grid-template-columns:none;cursor:pointer}
+.pick-item:hover{background:#f3f6f1}
+.pick-item.on{background:#e9f0e9}
+.pick-item.disabled{opacity:.45;cursor:not-allowed}
+.pick-item input{margin:0}
+.pick-item strong{display:block;font-size:12.5px;font-weight:600;color:#2f3e38}
+.pick-item small{font-size:11px;color:#7d8b85}
+.pick-item small .status{font-size:9px;padding:2px 6px;margin:0 4px}
+.rule-check{display:grid;gap:4px;padding:10px 12px;background:#f4f6f2;border-radius:5px}
+.rule-check .ok{color:#4b7a68;font-size:11.5px}
+.rule-check .rule-err{color:#a4512f;font-size:11.5px;line-height:1.5}
+.reason{margin-top:4px}
+.reason span{color:#b07c38;font-size:10px;margin-left:6px}
+.reason.invalid textarea{border-color:#d48a6c}
+.modal-foot{display:flex;justify-content:flex-end;gap:8px;margin-top:6px}
+.foot-note{display:block;margin-top:8px;text-align:right}
+.outline.danger{border-color:#e3b3a1;color:#a4512f}
+@media(max-width:850px){.schedule-wrap{padding:22px 18px}.session-card{flex-direction:column}.session-papers{grid-template-columns:1fr}.conflict-grid{grid-template-columns:1fr}}
+
+/* 状态徽标（类名不使用中文） */
+.paper-state{font:10px 'DM Mono';white-space:nowrap;padding:4px 7px;border-radius:3px;height:max-content}
+.state-待读{color:#9a7444;background:#f1e8d9}
+.state-已读{color:#4b7a68;background:#dfeee7}
+.state-阅读中{color:#8b6b33;background:#f2e4c8}
+.status-select.state-待读,.status-select.state-已读,.status-select.state-阅读中{border:1px solid #d6ddd6}
+.session-papers .paper-state{font-size:9px;padding:2px 6px}
+.pick-item small .paper-state{font-size:9px;padding:2px 6px;margin:0 4px}
+.pick-item input[type=checkbox]{margin:0;padding:0;width:auto;accent-color:#4b7a68;flex-shrink:0}
